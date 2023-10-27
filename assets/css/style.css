@@ -25,6 +25,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 
@@ -261,10 +262,15 @@ a{
     flex-direction: column;
     row-gap: 30px;
     width: 700px;
+    height: 450px;
+
 }
 
+
 .positionFixedForDiscover{
-    position: static;
+    position: fixed;
+    top: 100px;
+    right: 0;
 }
 
 #cat{

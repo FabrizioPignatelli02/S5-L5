@@ -15,5 +15,7 @@ document.addEventListener("scroll", () => {
   const discover = document.getElementById("discover");
   if (window.scrollY > 830) {
     discover.classList.add("positionFixedForDiscover");
+  } else {
+    discover.classList.remove("positionFixedForDiscover");
   }
 });
