@@ -208,6 +208,11 @@ header h3{
     width: 18px;
 }
 
+#dateSpan #bookmark{
+    cursor: pointer;
+    width: 8%;
+}
+
 #article{
     width: 65%;
     display: flex;
