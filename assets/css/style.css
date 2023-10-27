@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Spectral:wght@400;700;800&display=swap');
+
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFC017;
+    
+}
+
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#menu ul li{
+    display: inline;
+    font-size: 15px;
+}
+
+#logo{
+    width: 48%;
+    text-align: center;
+}
+
+#menu{
+    width: 48%;
+    text-align: center;
+}
+
+#getStarted{
+    border: 0;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    column-gap: 30px;
+    justify-content: space-around;
+    background-color: #FFBF18;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#title{
+    width: 30%;
+    margin-inline: auto;
+}
+
+
+header h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+header h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#svg{
+    flex-basis: 30%;
+}
+
+#startReading{
+    border: 0;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+#title-grid{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    width: 1200px;
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+hr{
+    border: 1px solid rgba(201, 201, 201, 0.267);
+}
+
+
+#title-grid{
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.trendings #id_trendings{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #F2F2F2;
+}
+
+.trendings{
+    display: flex;
+    width: 33%;
+}
+
+.userComment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    row-gap: 10px;
+}
+
+
+.userComment img{
+    border-radius: 50%;
+}
+
+#imageUser{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#dateSpan{
+    color: #6B6B6B;
+    font-size: 13px;
+}
+
+.trendings p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
