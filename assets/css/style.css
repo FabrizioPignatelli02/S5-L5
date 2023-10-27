@@ -6,7 +6,7 @@ body{
     width: 100%;
 }
 
-nav{
+#nav{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -15,12 +15,22 @@ nav{
     padding-bottom: 15px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color: #FFC017;
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
+}
+
+
+.scrolled{
+    background-color: white;
+    transition: background-color 400ms ease-in-out;
+}
+
+.unscrolled{
+    background-color: #FFC017;
+    transition: background-color 400ms ease-in-out;
 }
 
 
@@ -50,12 +60,21 @@ nav{
 #getStarted{
     border: 0;
     color: white;
-    background-color: black;
     border-radius: 20px;
     padding: 10px;
     width: 100px;
     height: 40px;
     cursor: pointer;
+}
+
+.buttonScrolled{
+    background-color: rgb(35, 187, 35);
+    transition: background-color 400ms ease-in-out;
+}
+
+.buttonUnScrolled{
+    background-color: black;
+    transition: background-color 400ms ease-in-out;
 }
 
 header{
