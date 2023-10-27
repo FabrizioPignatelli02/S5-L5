@@ -2,7 +2,7 @@
 
 
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -16,6 +16,11 @@ body{
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid black;
+    
+}
+
+
+#navContainer{
     position: sticky;
     top: 0;
     left: 0;
@@ -256,6 +261,10 @@ a{
     flex-direction: column;
     row-gap: 30px;
     width: 700px;
+}
+
+.positionFixedForDiscover{
+    position: static;
 }
 
 #cat{
